@@ -1,3 +1,4 @@
+import {arr} from "./index";
 let num1 = 10;
 let num2 = 5;
 
@@ -11,3 +12,11 @@ let obj = {
 }
 
 console.log(obj)
+
+
+arr.forEach(arr => {
+    console.log(arr)
+})
+
+const htmlTag = document.querySelector('.demo');
+htmlTag.innerHTML = 'Hey my name is Rockybul Hussain';
